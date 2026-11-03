@@ -5,11 +5,15 @@ import { business } from "@/content/business";
 import { isPreview, siteUrl } from "@/lib/site";
 
 // Fonts are self-hosted from npm packages (OFL-1.1), so no request goes to Google Fonts.
+// Display font: "block" (not "swap") because Anton is much narrower than any fallback.
+// Swapping caused headings to re-wrap and the page to jump (CLS 0.11 measured on the live site).
+// The file is small and preloaded, so the block period is brief.
 const anton = localFont({
   src: "../../node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2",
   variable: "--font-anton",
-  display: "swap",
+  display: "block",
   weight: "400",
+  adjustFontFallback: false,
 });
 
 const workSans = localFont({

@@ -2,7 +2,10 @@
 
 ## Status
 
-**Preview** on Render, shown to the owner for feedback. It is set to not be indexed by search engines (`NEXT_PUBLIC_PREVIEW=1`). Not launched on a custom domain.
+**Preview** live at **https://souseman-soulfood.onrender.com**, for the owner's feedback. It is set to not be indexed by search engines (`NEXT_PUBLIC_PREVIEW=1`). Not launched on a custom domain.
+
+- Code: https://github.com/eamdgroup-creator/souseman-soulfood (public; no secrets in it)
+- Hosting: Render static site `souseman-soulfood` (Blueprint from `render.yaml`; auto-deploys on every push to `main`)
 
 ## How it works (one paragraph)
 
@@ -22,7 +25,7 @@ Push to `main` and Render rebuilds automatically.
 
 ## Rollback [6.4]
 
-- **Render:** Dashboard → the `souseman-soulfood` service → **Events** / **Deploys** → pick the last good deploy → **Rollback** (Render redeploys that build).
+- **Render:** Dashboard → `souseman-soulfood` → Deploys → pick the last good deploy → **Rollback**. If photos ever show as missing right after a deploy, run **Manual Deploy → Clear build cache & deploy**: Render's CDN can briefly cache 404s.
 - **Git:** `git revert <bad-commit> && git push`, and Render rebuilds the fixed version.
 
 ## Accounts and owners [6.4] [7.3]
@@ -31,8 +34,8 @@ Fill these in at handoff:
 
 | Service | What it's for | Owner (business or agency) | Login email | Plan / billing | Renews |
 |---|---|---|---|---|---|
-| GitHub repo | code and history (the backup) | _TBD_ | _TBD_ | Free | — |
-| Render | hosting (preview) | _TBD_ | _TBD_ | Free static site | — |
+| GitHub repo | code and history (the backup) | Agency (`eamdgroup-creator`) | account email | Free | — |
+| Render | hosting (preview) | Agency (Render "My Workspace") | account email | Free static site | — |
 | Domain registrar | domain (at launch) | _TBD_ | _TBD_ | _TBD_ | _TBD_ |
 | DNS | points the domain at the host | _TBD_ | _TBD_ | _TBD_ | — |
 | Google Business Profile | listing, hours, reviews | Owner (needs claiming) | _TBD_ | Free | — |

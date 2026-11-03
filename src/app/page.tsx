@@ -38,8 +38,15 @@ export default function Home() {
           <div className="absolute inset-0 -z-10 bg-gradient-to-r from-ink via-ink/85 to-ink/40" aria-hidden="true" />
           <div className="mx-auto max-w-6xl px-4 pb-16 pt-10 sm:px-6 sm:pb-28 sm:pt-24">
             <p className="text-sm font-bold uppercase tracking-[0.2em] text-mustard">{copy.eyebrow}</p>
-            <h1 id="hero-title" className="mt-3 max-w-3xl font-display text-[3.25rem] uppercase leading-[0.9] sm:mt-4 sm:text-8xl">
-              World’s Famous <span className="text-mustard">Souseman</span> Soulfood
+            {/* Fixed line breaks + nowrap: the headline's height can't change when the web font
+                swaps in, so nothing below it jumps (layout shift). Size scales down on narrow phones. */}
+            <h1
+              id="hero-title"
+              className="mt-3 max-w-4xl font-display text-[min(3.25rem,calc((100vw_-_2rem)/6.8))] uppercase leading-[0.9] sm:mt-4 sm:text-7xl md:text-8xl"
+            >
+              <span className="block whitespace-nowrap">World’s Famous</span>
+              <span className="block whitespace-nowrap lg:inline text-mustard">Souseman</span>{" "}
+              <span className="block whitespace-nowrap lg:inline">Soulfood</span>
             </h1>
             <p className="mt-6 max-w-xl text-2xl font-semibold leading-snug">{copy.tagline}</p>
             <p className="mt-3 max-w-xl text-lg leading-relaxed text-cream/90">{copy.intro}</p>
