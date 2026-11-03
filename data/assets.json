@@ -1,0 +1,53 @@
+{
+  "_note": "Downloaded at build time by scripts/fetch-images.mjs (the build sandbox could not reach these hosts). Source = the business's own DoorDash online-ordering storefront (merchant menu photo shoot). For launch, ask the owner for the original files and permission to reuse them. Yelp blocked automated access, so no Yelp photos are used; Google 'menu highlight' photos are customer uploads, so they are not used either.",
+  "images": [
+    {
+      "file": "hero-rib-dinners.webp",
+      "alt": "BBQ rib dinners with baked beans, mac and cheese, rice and sweet potatoes in takeout trays",
+      "url": "https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1800,height=1200,format=jpeg,quality=85/https://doordash-static.s3.amazonaws.com/media/store/header/e426b433-8445-49a8-a6ca-cdbe40794a3a.jpg",
+      "width": 1800, "height": 1200,
+      "source": "doordash-storefront-header", "license": "owner-provided via DoorDash storefront; confirm"
+    },
+    {
+      "file": "pork-souse.webp",
+      "alt": "A bowl of pork souse with potatoes in a peppery broth",
+      "url": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=jpeg,quality=85/media/photosV2/c26c133d-a512-4209-bb1a-79d586d26798-retina-large.jpg",
+      "width": 1200, "height": 1200, "source": "doordash-storefront-menu", "license": "confirm with owner"
+    },
+    {
+      "file": "chicken-souse.webp",
+      "alt": "A bowl of chicken souse with chicken pieces and potatoes",
+      "url": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=jpeg,quality=85/media/photosV2/d8151e52-d00f-43c2-bce9-05c20e95615f-retina-large.jpg",
+      "width": 1200, "height": 1200, "source": "doordash-storefront-menu", "license": "confirm with owner"
+    },
+    {
+      "file": "bbq-rib-sandwich.webp",
+      "alt": "BBQ rib sandwich piled with saucy rib meat on white bread",
+      "url": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=jpeg,quality=85/media/photosV2/67ae084d-e4ca-4136-9ceb-c8baa380bf53-retina-large.jpg",
+      "width": 1200, "height": 1200, "source": "doordash-storefront-menu", "license": "confirm with owner"
+    },
+    {
+      "file": "bbq-chicken-sandwich.webp",
+      "alt": "BBQ chicken sandwich on white bread in a takeout box",
+      "url": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=jpeg,quality=85/media/photosV2/0db302c2-032e-4ca1-afc4-ad15606fb1ef-retina-large.jpg",
+      "width": 1200, "height": 1200, "source": "doordash-storefront-menu", "license": "confirm with owner"
+    },
+    {
+      "file": "conch-salad.webp",
+      "alt": "Conch salad with diced conch, tomato and onion in citrus juice",
+      "url": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=jpeg,quality=85/media/photosV2/d40412c5-8dd3-4170-8ff9-d1cb7a1e8d3b-retina-large.jpg",
+      "width": 1200, "height": 1200, "source": "doordash-storefront-menu", "license": "confirm with owner"
+    },
+    {
+      "file": "buttercream-cake.webp",
+      "alt": "Slice of buttercream cake in a clear takeout container",
+      "url": "https://img.cdn4dd.com/p/fit=cover,width=1200,height=1200,format=jpeg,quality=85/media/photosV2/e03cf379-32c6-4bcc-afbb-24d18f2aad24-retina-large.jpg",
+      "width": 1200, "height": 1200, "source": "doordash-storefront-menu", "license": "confirm with owner"
+    }
+  ],
+  "rejected": [
+    { "url": "https://tb-static.uber.com/prod/image-proc/processed_images/56c613517160122e3b18f214588831d1/9e31c708e4cf73b6e3ea1bd4a9b6e16b.jpeg", "reason": "Uber Eats header looks like a generic cuisine image (salmon, broccoli) rather than this kitchen's food" },
+    { "url": "Google Maps menu highlight photos (lh3.googleusercontent.com/grass-*)", "reason": "Customer uploads; not the owner's to give" },
+    { "url": "Yelp photos", "reason": "Yelp blocks automated access; photos there are customer uploads" }
+  ]
+}

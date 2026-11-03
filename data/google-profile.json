@@ -1,0 +1,180 @@
+{
+  "_capture": {
+    "method": "Read by hand from the Google Maps listing in the browser (Apify Google Maps scraper unavailable: monthly usage limit hit)",
+    "capturedAt": "2026-11-03",
+    "url": "https://www.google.com/maps/place/World%E2%80%99s+Famous+Souseman+Soulfood/@25.9124131,-80.2546387,17z/data=!4m6!3m5!1s0x88d9af00da8ec39b:0xd7721e12e7ab9221!8m2!3d25.9124131!4d-80.2546387!16s%2Fg%2F11t6zh9vz5",
+    "ftid": "0x88d9af00da8ec39b:0xd7721e12e7ab9221",
+    "kgmid": "/g/11t6zh9vz5"
+  },
+  "title": "World’s Famous Souseman Soulfood",
+  "categoryName": "Soul food restaurant",
+  "address": "15140 NW 33rd Ave, Opa-locka, FL 33054",
+  "street": "15140 NW 33rd Ave",
+  "city": "Opa-locka",
+  "state": "FL",
+  "postalCode": "33054",
+  "neighborhoodNote": "Facebook page lists the area as Miami Gardens, FL",
+  "plusCode": "WP6W+X4 Opa-locka, Florida",
+  "location": {
+    "lat": 25.9124131,
+    "lng": -80.2546387
+  },
+  "phone": "(786) 617-6472",
+  "phoneUnformatted": "+17866176472",
+  "website": null,
+  "claimThisBusiness": true,
+  "permanentlyClosed": false,
+  "temporarilyClosed": false,
+  "openingHours": [
+    {
+      "day": "Monday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Tuesday",
+      "hours": "3–8 PM"
+    },
+    {
+      "day": "Wednesday",
+      "hours": "Closed"
+    },
+    {
+      "day": "Thursday",
+      "hours": "5–10 PM"
+    },
+    {
+      "day": "Friday",
+      "hours": "5–10 PM"
+    },
+    {
+      "day": "Saturday",
+      "hours": "5–10 PM"
+    },
+    {
+      "day": "Sunday",
+      "hours": "3–8 PM"
+    }
+  ],
+  "totalScore": 4.7,
+  "reviewsCount": 108,
+  "reviewsDistribution": {
+    "fiveStar": 90,
+    "fourStar": 9,
+    "threeStar": 4,
+    "twoStar": 1,
+    "oneStar": 4
+  },
+  "reviewsTags": [
+    {
+      "title": "pork souse",
+      "count": 14
+    },
+    {
+      "title": "ribs",
+      "count": 9
+    },
+    {
+      "title": "chicken souse",
+      "count": 6
+    },
+    {
+      "title": "seafood rice",
+      "count": 4
+    },
+    {
+      "title": "portion size",
+      "count": 4
+    },
+    {
+      "title": "value for money",
+      "count": 3
+    },
+    {
+      "title": "conch fritters",
+      "count": 2
+    },
+    {
+      "title": "family atmosphere",
+      "count": 2
+    },
+    {
+      "title": "friendly owner",
+      "count": 2
+    },
+    {
+      "title": "wait time",
+      "count": 2
+    }
+  ],
+  "menuHighlights": [
+    "Pork Souse",
+    "Fish Shrimp and Fries",
+    "BBQ Ribs",
+    "Oxtail Dinners",
+    "Beef Soup",
+    "BBQ Rib Sandwiches",
+    "Cakes",
+    "BBQ Rib Dinners",
+    "Chicken and Seafood Rice"
+  ],
+  "menuSections": [
+    "dinners",
+    "Souse",
+    "Entrees & Sides"
+  ],
+  "additionalInfo": {
+    "Accessibility": [
+      "Wheelchair accessible entrance",
+      "Wheelchair accessible parking lot"
+    ],
+    "Service options (Google)": [
+      "Delivery",
+      "Takeout",
+      "Dine-in"
+    ],
+    "Highlights": [
+      "Fast service",
+      "Serves local specialty"
+    ],
+    "Payments": [
+      "Credit cards",
+      "Debit cards"
+    ],
+    "Parking": [
+      "Free parking lot",
+      "Free street parking"
+    ],
+    "Children": [
+      "Good for kids"
+    ],
+    "Planning (Google)": [
+      "Accepts reservations"
+    ],
+    "_note": "Profile is unclaimed, so these attributes are crowd-sourced. Reviews say takeout only; 'Dine-in' and 'Accepts reservations' conflict and are NOT used on the site until the owner confirms."
+  },
+  "orderLinks": {
+    "doordashStorefront": "https://order.online/store/worlds-famous-souseman-soul-food-opa-locka-28141365",
+    "uberEats": "https://www.ubereats.com/store/worlds-famous-souseman-soulfood/JcZVCY7CWM-npIL7R4B5sA"
+  },
+  "socials": {
+    "facebookLarry": "https://www.facebook.com/souseman/",
+    "facebookBusiness": "https://www.facebook.com/porksouse01/",
+    "instagram": "https://www.instagram.com/souseman/"
+  },
+  "press": [
+    {
+      "fact": "Souseman Larry featured on Netflix's Street Food: USA, Season 1 Episode 6 'Miami, Florida' (2022)",
+      "sources": [
+        "https://www.imdb.com/title/tt21371368/",
+        "https://www.miamiherald.com/living/food-drink/article267970322.html"
+      ]
+    }
+  ],
+  "reviewFacts": [
+    "Takeout only; pickup is at a residential address next to the house (several reviews; one 1-star review was confused by the residential location)",
+    "Delivery-app hours have been wrong; reviewers recommend calling first",
+    "Menu changes day to day ('limited menu day'); Facebook posts list the day's menu",
+    "Reviewers mention a $10 souse deal on Tuesdays (2023–2024 reviews) - NOT used on site until owner confirms",
+    "Family-run; owner Larry is praised by name for hospitality"
+  ]
+}

@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1c1510;
+  --color-cream: #f7f0e4;
+  --color-paper: #fffaf1;
+  --color-pepper: #a8231b;
+  --color-pepper-dark: #861a14;
+  --color-mustard: #f2b632;
+  --color-collard: #2f5a3a;
+  --color-smoke: #5b4f45;
+
+  --font-display: var(--font-anton), "Impact", "Arial Narrow", sans-serif;
+  --font-sans: var(--font-work-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+/* Visible keyboard focus everywhere */
+:focus-visible {
+  outline: 3px solid var(--color-mustard);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Hand-painted marker highlight behind a word */
+.highlight {
+  background-image: linear-gradient(transparent 58%, var(--color-mustard) 58%, var(--color-mustard) 92%, transparent 92%);
+  padding: 0 0.15em;
+}
+
+/* Subtle diagonal pattern for photo placeholders and the menu board */
+.pattern-diag {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    rgb(255 255 255 / 0.04) 0 12px,
+    transparent 12px 24px
+  );
+}
